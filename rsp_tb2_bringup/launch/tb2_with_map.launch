@@ -1,0 +1,12 @@
+<launch>
+
+
+    <arg name="map_file" default="/home/rsp/wyman170.yaml"/>
+    
+    <include file="$(find rsp_tb2_bringup)/launch/tb2_bringup.launch"/>
+    <include file="$(find turtlebot_navigation)/launch/amcl_demo.launch">
+        <arg name="map_file" value="$(arg map_file)"/>
+    </include>
+
+
+</launch>

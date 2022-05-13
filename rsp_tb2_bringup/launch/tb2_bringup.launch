@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find turtlebot_bringup)/launch/minimal.launch">
+        <arg name="serialport" value="/dev/ttyUSB2"/>
+        <arg name="battery" value="None"/>
+    </include>
+
+    <!-- Publish static transform from base link to lidar -->
+    <include file="$(find rplidar_ros)/launch/rplidar.launch">
+        <arg name="serial_port" value="/dev/ttyUSB0"/>
+    </include>
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser_frame_broadcaster" args="-0.003 0 0.4869 0 0 0 base_link laser 10" />
+
+</launch>

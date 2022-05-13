@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find rsp_tb2_bringup)/launch/tb2_bringup.launch"/>
+    <include file="$(find turtlebot_navigation)/launch/gmapping_demo.launch"/>
+
+</launch>
