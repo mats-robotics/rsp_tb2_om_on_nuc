@@ -1,0 +1,27 @@
+[submodule "kobuki_msgs"]
+	path = kobuki_msgs
+	url = https://github.com/yujinrobot/kobuki_msgs.git
+[submodule "RSP_Project"]
+	path = RSP_Project
+	url = https://github.com/jeefthebeef/RSP_Project
+[submodule "rplidar_ros"]
+	path = rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
+[submodule "rsp_tb2_perception"]
+	path = rsp_tb2_perception
+	url = https://github.com/mats-robotics/rsp_tb2_perception.git
+[submodule "rsp_tb2_pick_and_place"]
+	path = rsp_tb2_pick_and_place
+	url = https://github.com/mats-robotics/rsp_tb2_pick_and_place.git
+[submodule "turtlebot"]
+	path = turtlebot
+	url = https://github.com/turtlebot/turtlebot.git
+[submodule "turtlebot_apps"]
+	path = turtlebot_apps
+	url = https://github.com/turtlebot/turtlebot_apps.git
+[submodule "turtlebot_msgs"]
+	path = turtlebot_msgs
+	url = https://github.com/turtlebot/turtlebot_msgs.git
+[submodule "turtlebot_simulator"]
+	path = turtlebot_simulator
+	url = https://github.com/turtlebot/turtlebot_simulator.git
